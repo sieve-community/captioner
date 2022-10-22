@@ -1,0 +1,14 @@
+model_version: "0.0.0.0.213"
+build:
+  gpu: true
+  system_packages:
+    - "libgl1-mesa-glx"
+    - "libglib2.0-0"
+  python_version: "3.8"
+  python_packages:
+    - "torch==1.8.1"
+    - "transformers==4.23.1"
+predict: "predictor.py:Captioner"
+model_name: "captioner"
+private: false
+iteration: "video"
