@@ -1,4 +1,4 @@
-# Indoor Scene Recognition
+# Video Captioning
 
 Deployed on Sieve at `developer-sievedata-com/captioner`. You can also deploy it yourself using `sieve model` inside this repo's directory.
 
